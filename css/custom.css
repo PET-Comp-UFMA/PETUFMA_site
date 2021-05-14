@@ -1,0 +1,16 @@
+/* Header*/
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/*Carousel*/
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel {
+    background-color: rgb(71, 71, 71);
+}
