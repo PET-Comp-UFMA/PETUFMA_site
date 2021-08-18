@@ -300,7 +300,6 @@ h2{
 }
  h3{
     text-align: center; 
-    height: 20vh;
     font-size: 1.1em;
     font-weight: 500;
     
@@ -383,8 +382,6 @@ p{
 .grupo-card{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    height: 100%;
     width: 250px;
     border: 0.5px solid #1F2133;
     border-radius: 3px;
@@ -409,15 +406,15 @@ p{
 }
  
 .grupo-card #block2 .block3{
-    width: 50%;
+    width: 100%;
     text-align: center;
     color: #fff;
     
     height: 55px;
 }
-.grupo-card #block2 #block3-left{
+/* .grupo-card #block2 #block3-left{
     border-right: 2px solid #1F2133;;
-}
+} */
 
 .grupo-img{
     width: 100%;
@@ -565,8 +562,6 @@ p{
 .evento .grupo-card{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    height: 100%;
     width: 250px;
     border: 0.5px solid #1F2133;
     border-radius: 3px;
@@ -576,7 +571,6 @@ p{
 
 .evento .card-conteiner .grupo-card .grupo-img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
     overflow: hidden;
     background-size: cover;
