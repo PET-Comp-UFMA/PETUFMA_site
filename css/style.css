@@ -308,7 +308,6 @@ h2{
 
  h4{
     text-align: center; 
-    height: 20vh;
     font-size: 1em;
     font-weight: 500;
 
@@ -401,7 +400,7 @@ p{
 }
 
 #block2:disabled{
-    -webkit-filter: grayscale(100%);
+    /* -webkit-filter: grayscale(100%); */
     background-color: darkgrey;
 }
 .grupo-card #block2{
@@ -426,7 +425,11 @@ p{
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 10px;
+}
+
+.grupo-img-background {
+  padding: 0;
 }
 
 .img-block{
@@ -1128,10 +1131,10 @@ p{
  }
  
  #respond input[type=text], textarea {
-     -webkit-transition: all 0.30s ease-in-out;
+     /* -webkit-transition: all 0.30s ease-in-out;
      -moz-transition: all 0.30s ease-in-out;
      -ms-transition: all 0.30s ease-in-out;
-     -o-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out; */
      outline: none;
      padding: 3px 0px 3px 3px;
      margin: 5px 1px 3px 0px;
