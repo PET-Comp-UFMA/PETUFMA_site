@@ -406,6 +406,10 @@ p{
 }
  
 .grupo-card #block2 .block3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -629,8 +633,9 @@ p{
 }
 
 #test4{
-    margin: 10px 5% 10px 5%;
-    
+    margin-top: 10px;
+    padding-left: 5%;
+    margin-bottom: 10px;
 }
 
 #test4 ul li{
