@@ -613,6 +613,7 @@ p{
     display: flex;
     justify-content: center;
     text-align: justify;
+    margin-top: 20px;
 }
 .tabs{
     background-color: #fff;
@@ -632,16 +633,45 @@ p{
     margin: 10px 5% 10px 5%;
 }
 
-#test4{
-    margin-top: 10px;
+#test1{
     padding-left: 5%;
     margin-bottom: 10px;
+    margin-top: 15px;
+}
+#test1 ul li{
+    list-style: square;
+    line-height: 1.5rem;
 }
 
+#test2{
+    padding-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#test2 ul li{
+    list-style: square;
+    line-height: 1.5rem;
+}
+#test3{
+    padding-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#test3 ul li{
+    list-style: square;
+    line-height: 1.5rem;
+}
+
+#test4{
+    padding-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
 #test4 ul li{
     list-style: square;
     line-height: 1.5rem;
 }
+
 .carousel{
     height: 500px !important;
     display: flex !important;
